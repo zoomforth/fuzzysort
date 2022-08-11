@@ -383,7 +383,7 @@
 
       score -= (12+unmatchedDistance) * extraMatchGroupCount // penality for more groups
 
-      if(matchesBest[0] !== 0) score -= matchesBest[0]*10 // penality for not starting near the beginning
+      // if(matchesBest[0] !== 0) score -= matchesBest[0]*10 // penality for not starting near the beginning
 
       if(!successStrict) {
         score *= 1000

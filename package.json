@@ -17,7 +17,7 @@
   "main": "fuzzysort.js",
   "scripts": {
     "test": "node test.js",
-    "min" : "uglifyjs fuzzysort.js -o fuzzysort.min.js -m -c --mangle-props keep_quoted --comments /farzher/"
+    "min": "uglifyjs fuzzysort.js -o fuzzysort.min.js -m -c --mangle-props keep_quoted --comments /farzher/"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "fuzzysort.js",
     "fuzzysort.min.js",
     "index.d.ts"
-  ]
+  ],
+  "dependencies": {
+    "uglify-js": "^3.16.3"
+  }
 }
